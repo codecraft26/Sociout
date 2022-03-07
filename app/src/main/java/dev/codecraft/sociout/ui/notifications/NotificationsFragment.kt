@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import coil.load
 import coil.transform.CircleCropTransformation
+import com.bumptech.glide.Glide
 import com.google.firebase.auth.FirebaseAuth
 import dev.codecraft.sociout.R
 import dev.codecraft.sociout.databinding.FragmentNotificationsBinding
@@ -40,7 +41,7 @@ class NotificationsFragment : Fragment() {
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        val currentUser = FirebaseAuth.getInstance().currentUser
         with(binding) {
             imageViewUserImage.load(R.drawable.ic_baseline_account_circle_24) {
                 crossfade(true)
