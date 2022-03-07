@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "373168087793",
+    "project_id": "sociout-b9567",
+    "storage_bucket": "sociout-b9567.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373168087793:android:0551b5f0257245716d3f50",
+        "android_client_info": {
+          "package_name": "dev.codecraft.sociout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373168087793-sdfi8rcmevifigcsm112fnr480s0pus8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9EYt1_WekFRyxv_fKw2T7X3LwQ0VW_As"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373168087793-sdfi8rcmevifigcsm112fnr480s0pus8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
