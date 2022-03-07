@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "373168087793-p654fh6i2i3vednf29gd5li05f7g8fhd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.codecraft.sociout",
+            "certificate_hash": "6883671790776e1a90788ca5872c7b42171f8702"
+          }
+        },
+        {
           "client_id": "373168087793-sdfi8rcmevifigcsm112fnr480s0pus8.apps.googleusercontent.com",
           "client_type": 3
         }

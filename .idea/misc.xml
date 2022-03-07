@@ -6,7 +6,10 @@
         <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.154" />
         <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.154" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.15052083333333333" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.15052083333333333" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.15052083333333333" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.15052083333333333" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.15429122468659595" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.15052083333333333" />
       </map>
     </option>
