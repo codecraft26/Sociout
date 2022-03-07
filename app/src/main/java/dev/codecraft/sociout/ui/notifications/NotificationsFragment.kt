@@ -4,9 +4,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
+
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import coil.load
+import coil.transform.CircleCropTransformation
+import com.google.firebase.auth.FirebaseAuth
+import dev.codecraft.sociout.R
 import dev.codecraft.sociout.databinding.FragmentNotificationsBinding
 
 class NotificationsFragment : Fragment() {
@@ -22,8 +26,7 @@ class NotificationsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val notificationsViewModel =
-            ViewModelProvider(this).get(NotificationsViewModel::class.java)
+
 
         _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
         val root: View = binding.root
@@ -31,7 +34,21 @@ class NotificationsFragment : Fragment() {
 
 
 
+
+
         return root
+    }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        with(binding) {
+            imageViewUserImage.load(R.drawable.ic_baseline_account_circle_24) {
+                crossfade(true)
+                transformations(CircleCropTransformation())
+            }
+
+            textViewVersionName.text = "Version 3.55"
+        }
     }
 
     override fun onDestroyView() {

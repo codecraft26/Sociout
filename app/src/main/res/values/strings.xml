@@ -8,4 +8,8 @@
     <string name="Feeds">Feeds</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sample_user_name">amann.astic</string>
+
+    <string name="sample_user_email">gaman0221@gmail.com</string>
+    <string name="sample_user_bio">Keep Calm and Show me your Source Code When you play the Game of Codes, you execute or you fail. There is no middle ground. Everybody: Hodor; Programmer: “Hello World” One programmer makes the program, others are just looking for the source code.</string>
 </resources>
