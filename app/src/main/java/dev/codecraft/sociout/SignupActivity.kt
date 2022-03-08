@@ -21,10 +21,10 @@ class SignupActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySignupBinding.inflate(layoutInflater)
         setContentView(binding.root)
-//        if (Firebase.auth.currentUser != null) {
-//            startActivity(Intent(this, MainActivity::class.java))
-//            finish()
-//        }
+        if (Firebase.auth.currentUser != null) {
+            startActivity(Intent(this, MainActivity::class.java))
+            finish()
+        }
         binding.signupbtn.setOnClickListener {
             signInLauncher.launch(signInIntent)
         }
