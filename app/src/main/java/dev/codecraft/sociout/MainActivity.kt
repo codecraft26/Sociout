@@ -8,11 +8,9 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
-import dev.codecraft.sociout.daos.UsersDao
+
 import dev.codecraft.sociout.databinding.ActivityMainBinding
-import dev.codecraft.sociout.model.Users
-import dev.codecraft.sociout.ui.dashboard.DashboardFragment
+
 
 class MainActivity : AppCompatActivity() {
 
