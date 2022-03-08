@@ -7,13 +7,17 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
+import dev.codecraft.sociout.daos.UsersDao
 import dev.codecraft.sociout.databinding.ActivityMainBinding
+import dev.codecraft.sociout.model.Users
 import dev.codecraft.sociout.ui.dashboard.DashboardFragment
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-
+    private lateinit var auth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -32,5 +36,11 @@ class MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
 
+
+
+
+
     }
+
+
 }
