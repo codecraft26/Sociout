@@ -30,12 +30,13 @@ class HomeFragment : Fragment() {
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+// binding of data
         binding.listSnippets.apply {
             layoutManager = LinearLayoutManager(context)
 
         }
     }
+    
 
 
 }
